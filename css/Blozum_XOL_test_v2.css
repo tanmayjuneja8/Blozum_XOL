@@ -671,20 +671,6 @@ input {
     top: 50%;
     transform: translateY(-50%);
 }
-.thumb-up {
-    border-radius: 50%;
-    width: 25px;
-    height: 25px;
-    border-color: transparent;
-    border-width: thin;
-}
-.thumb-down {
-    border-radius: 50%;
-    width: 25px;
-    height: 25px;
-    border-color: transparent;
-    border-width: thin;
-}
 
 .thumb-up,
 .thumb-down {
@@ -692,6 +678,7 @@ input {
     background-color: transparent;
     outline: none;
     border-radius: 50%;
+    border-color: #ccc;
     width: 25px;
     height: 25px;
     border-width: thin;
