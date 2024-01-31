@@ -675,14 +675,14 @@ input {
     border-radius: 50%;
     width: 25px;
     height: 25px;
-    border-color: #0E6FFF;
+    border-color: transparent;
     border-width: thin;
 }
 .thumb-down {
     border-radius: 50%;
     width: 25px;
     height: 25px;
-    border-color: #0E6FFF;
+    border-color: transparent;
     border-width: thin;
 }
 
@@ -702,11 +702,15 @@ input {
     background-color: #0E6FFF;
     /* Blue background for active state */
     color: white;
+    border-color: #0E6FFF;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    border-width: thin;
 }
 .thumb-down:hover,
 .thumb-up:hover {
     color: #0e6fff;
     transition: all .2s ease-in-out;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     transform: scale(1.1);
 }
 .messages__item--visitor:hover .message-reaction {
