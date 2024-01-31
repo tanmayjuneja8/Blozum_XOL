@@ -703,3 +703,21 @@ input {
 .messages__item--visitor:hover .message-reaction {
     display: contents;
 }
+#blz_form_error {
+    background-color: #ffcccc;
+    /* Light red background */
+    color: #cc0000;
+    /* Darker red for the text */
+    border-radius: 8px;
+    /* Curved edges */
+    padding: 10px;
+    /* Some padding inside the box */
+    font-weight: 300;
+    /* Thinner font */
+    margin-bottom: 10px;
+    /* Space below the box */
+    display: none;
+    /* Hide by default */
+    text-align: center;
+    /* Center the text */
+}
