@@ -721,3 +721,19 @@ input {
     text-align: center;
     /* Center the text */
 }
+#blz_form_success {
+    background-color: #e6ffcc;
+    color: #2d862d;
+    border-radius: 8px;
+    /* Curved edges */
+    padding: 10px;
+    /* Some padding inside the box */
+    font-weight: 300;
+    /* Thinner font */
+    margin-bottom: 10px;
+    /* Space below the box */
+    display: none;
+    /* Hide by default */
+    text-align: center;
+    /* Center the text */
+}
