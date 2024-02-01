@@ -631,7 +631,7 @@ bottom: 75px;
     box-shadow: #ccc 0 0 0 3px, transparent 0 0 0 0;
 }
 
-.visitor_menu_BLZ {
+.visitor_menu_BLZ, .after_submission_BLZ {
     position: relative;
     margin-top: 10px;
     margin-right: auto;
