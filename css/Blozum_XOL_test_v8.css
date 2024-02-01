@@ -731,8 +731,7 @@ input {
     /* Thinner font */
     margin-bottom: 10px;
     /* Space below the box */
-    display: none;
-    /* Hide by default */
+    display: block;
     text-align: center;
     /* Center the text */
 }
