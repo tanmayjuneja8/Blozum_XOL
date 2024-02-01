@@ -649,8 +649,7 @@ bottom: 75px;
     z-index: 1000;
 }
 
-.flex-blozum_container {
-    display: flex;
+.flex-blozum_container {display: flex;
     justify-content: space-evenly;
 }
 
@@ -721,7 +720,7 @@ input {
     text-align: center;
     /* Center the text */
 }
-#blz_form_success {
+.blz_form_success {
     background-color: #e6ffcc;
     color: #2d862d;
     border-radius: 8px;
