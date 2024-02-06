@@ -665,7 +665,7 @@ input {
 }
 
 /* Highlight the active (enabled) button */
-.active {
+.blz_active {
     background-color: #0E6FFF;
     /* Blue background for active state */
     color: white;
