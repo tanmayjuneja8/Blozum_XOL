@@ -10,7 +10,7 @@
 
 .blozum_button-35:hover,
 .blozum_chatbox_button button:hover {
-    box-shadow: #90b89b 0 0 0 3px, transparent 0 0 0 0
+    box-shadow: #0E6FFF 0 0 0 3px, transparent 0 0 0 0
 }
 
 @media only screen and (min-width: 1024px) {
@@ -104,7 +104,7 @@ bottom: 35px;
 
 .blozum_button-35,
 .blozum_button-35:hover{
-    background-color: #000
+    background-color: #fff
 }
 
 .blozum_container {
@@ -408,7 +408,7 @@ bottom: 35px;
 }
 
 .blozum_chatbox_button button:hover {
-    background-color: #90b89b;
+    background-color: #0E6FFF;
     color: #fff
 }
 
