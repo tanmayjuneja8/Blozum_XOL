@@ -5,19 +5,20 @@
 
 .blozum_button-35,
 .blozum_button-35:hover {
-    color: #fff
+    color: #fff;
 }
 
 .blozum_button-35:hover,
 .blozum_chatbox_button button:hover {
-    box-shadow: #0E6FFF 0 0 0 3px, transparent 0 0 0 0
+    box-shadow: #0e6fff 0 0 0 3px, transparent 0 0 0 0;
 }
 
 @media only screen and (min-width: 1024px) {
-        .blozum_chatbox {
-                width: 100%;
-                height: 88%;
-            }
+    .blozum_chatbox {
+        width: 100%;
+        height: 88%;
+    }
+
     .blozum_container {
         right: 0%;
         width: 400px;
@@ -32,11 +33,11 @@
     }
 }
 
-@media only screen and (min-width: 901px) and (max-width:1023px) {
+@media only screen and (min-width: 901px) and (max-width: 1023px) {
     .blozum_chatbox {
-            width: 100%;
-            height: 88%;
-        }
+        width: 100%;
+        height: 88%;
+    }
 
     .blozum_container {
         right: 0%;
@@ -52,7 +53,7 @@
     }
 }
 
-@media only screen and (min-width: 601px) and (max-width:900px) {
+@media only screen and (min-width: 601px) and (max-width: 900px) {
     .blozum_chatbox {
         width: 100%;
         height: 90%;
@@ -72,39 +73,41 @@
     }
 }
 
-@media screen and (max-width:601px) {
+@media screen and (max-width: 601px) {
     .blozum_chatbox {
         width: 96%;
         height: 89%;
     }
+
     .blozum_container {
-            transform: none;
-            left: 0;
-            width: 100%;
-            height: 89%;
-            bottom: 30px;
-        }
-.blozum_chatbox__button {
-right: 15px;
-bottom: 35px;
-}
+        transform: none;
+        left: 0;
+        width: 100%;
+        height: 89%;
+        bottom: 30px;
+    }
+
+    .blozum_chatbox__button {
+        right: 15px;
+        bottom: 35px;
+    }
 }
 
-.image_bg {
+.blozum_image_bg {
     width: 90%;
 }
 
 :root {
-    --text: #2B3044;
+    --text: #2b3044;
     --font-size: 10px;
-    --duration: .44s;
-    --duration-line: .84s;
+    --duration: 0.44s;
+    --duration-line: 0.84s;
     font-family: "Figtree-Regular", "Avenir Next", sans-serif;
 }
 
 .blozum_button-35,
-.blozum_button-35:hover{
-    background-color: #fff
+.blozum_button-35:hover {
+    background-color: #fff;
 }
 
 .blozum_container {
@@ -114,7 +117,7 @@ bottom: 35px;
     opacity: 0;
     visibility: hidden;
     transition: opacity 0.5s, visibility 0.5s;
-    
+
     margin: 0 auto;
 }
 
@@ -122,28 +125,29 @@ bottom: 35px;
     opacity: 1;
     visibility: visible;
 }
+
 .blozum_button-3,
 .blozum_button-35 {
     display: inline-flex;
     line-height: 1;
     padding: 15px;
     text-align: center;
-    transition: box-shadow .2s, -webkit-box-shadow .2s;
+    transition: box-shadow 0.2s, -webkit-box-shadow 0.2s;
     white-space: nowrap;
-    touch-action: manipulation
+    touch-action: manipulation;
 }
 
 *,
 .blozum_button-3,
 .blozum_button-35 {
     box-sizing: border-box;
-    margin: 0
+    margin: 0;
 }
 
 .blozum_button-35 {
     align-items: center;
     border-radius: 15px;
-    box-shadow: transparent 0 0 0 6px, rgba(18, 18, 18, .4) 0 6px 20px;
+    box-shadow: transparent 0 0 0 6px, rgba(18, 18, 18, 0.4) 0 6px 20px;
     cursor: pointer;
     flex: 1 1 auto;
     font-family: Inter, sans-serif;
@@ -154,13 +158,13 @@ bottom: 35px;
     text-decoration: none;
     border: 0;
     user-select: none;
-    -webkit-user-select: none
+    -webkit-user-select: none;
 }
 
 .blozum_button-3 {
     background: 0 0;
     outline: 0;
-    cursor: pointer
+    cursor: pointer;
 }
 
 .send__button_BLZ {
@@ -178,19 +182,17 @@ bottom: 35px;
     border: none;
     /* Remove the default border */
     text-align: center;
-    transition: box-shadow .2s, -webkit-box-shadow .2s;
+    transition: box-shadow 0.2s, -webkit-box-shadow 0.2s;
     white-space: nowrap;
     /* touch-action: manipulation; */
-    box-shadow: transparent 0 0 0 5px,
-        rgba(18, 18, 18, .4) 0 5px 15px;
+    box-shadow: transparent 0 0 0 5px, rgba(18, 18, 18, 0.4) 0 5px 15px;
     cursor: pointer;
     flex: 1 1 auto;
     margin: 0 0 0 8px;
 }
 
 .send__button_BLZ:hover {
-    box-shadow: transparent 0 0 0 3px,
-        rgba(18, 18, 18, .4) 0 3px 9px;
+    box-shadow: transparent 0 0 0 3px, rgba(18, 18, 18, 0.4) 0 3px 9px;
 }
 
 .send__button_BLZ:active {
@@ -201,12 +203,12 @@ bottom: 35px;
     align-items: center;
     border-radius: 15px;
     background: #e1edff;
-    box-shadow: 0 0 0 rgba(0, 0, 0, .1);
+    box-shadow: 0 0 0 rgba(0, 0, 0, 0.1);
     width: 100%;
-    color: #0E6FFF;
+    color: #0e6fff;
     flex: 1 1 auto;
     justify-content: center;
-    box-shadow: transparent 0 0 0 3px, rgba(18, 18, 18, .2) 0 3px 5px;
+    box-shadow: transparent 0 0 0 3px, rgba(18, 18, 18, 0.2) 0 3px 5px;
     border: 0;
     user-select: none;
     -webkit-user-select: none;
@@ -214,20 +216,20 @@ bottom: 35px;
 }
 
 .blozum_button-3:hover {
-    box-shadow: transparent 0 0 0 3px, rgba(36, 36, 36, .4) 0 3px 5px;
-    font-weight: 700
+    box-shadow: transparent 0 0 0 3px, rgba(36, 36, 36, 0.4) 0 3px 5px;
+    font-weight: 700;
 }
 
 .property-value {
     margin-top: 5px;
-    font-weight: 700
+    font-weight: 700;
 }
 
 * {
     padding: 0;
-    --secondaryGradient: linear-gradient(180deg, #5699FC 0%, #0E6FFF 100%);
+    --secondaryGradient: linear-gradient(180deg, #5699fc 0%, #0e6fff 100%);
     --primaryBoxShadow: 0px 10px 15px rgba(0, 0, 0, 0.1);
-    --secondaryBoxShadow: 0px -10px 15px rgba(0, 0, 0, 0.1)
+    --secondaryBoxShadow: 0px -10px 15px rgba(0, 0, 0, 0.1);
 }
 
 .blozum_chatbox {
@@ -240,30 +242,30 @@ bottom: 35px;
     flex-direction: column;
     z-index: 0;
     opacity: 0;
-    transition: .5s ease-in-out;
+    transition: 0.5s ease-in-out;
     background: #fff;
     height: 100%;
     width: 100%;
-    box-shadow: 0 0 15px rgba(0, 0, 0, .1);
-    border-radius: 20px 20px 0
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    border-radius: 20px 20px 0;
 }
 
 .blozum_chatbox--active {
     transform: translateY(-8px);
     z-index: 1234;
-    opacity: 1
+    opacity: 1;
 }
 
 .blozum_chatbox__button {
     text-align: right;
     position: fixed;
-        z-index: 999;
+    z-index: 999;
 }
 
-.send__button {
+/* .send__button {
     padding: 6px;
     border: none
-}
+} */
 
 .blozum_chatbox__header {
     position: sticky;
@@ -279,11 +281,11 @@ bottom: 35px;
     flex-direction: column-reverse;
 }
 
-.messages__item {
-    width: fit-content
+.blozum_messages__item {
+    width: fit-content;
 }
 
-.messages__item--visitor {
+.blozum_messages__item--visitor {
     margin-right: auto;
     overflow-wrap: break-word;
     max-width: 100%;
@@ -293,7 +295,7 @@ bottom: 35px;
     position: sticky;
     bottom: 0;
     height: 10.5%;
-    z-index: 999
+    z-index: 999;
 }
 
 .blozum_chatbox__header {
@@ -304,26 +306,26 @@ bottom: 35px;
     justify-content: center;
     padding: 15px 20px;
     border-radius: 20px;
-    box-shadow: var(--primaryBoxShadow)
+    box-shadow: var(--primaryBoxShadow);
 }
 
-.messages__item--operator{
-        box-shadow: transparent 0 0 0 3px, rgba(18, 18, 18, .2) 0 3px 5px;
-        font-size: 15px;
-        border-top-right-radius: 4px;
-        border-top-left-radius: 16px;
+.blozum_messages__item--operator {
+    box-shadow: transparent 0 0 0 3px, rgba(18, 18, 18, 0.2) 0 3px 5px;
+    font-size: 15px;
+    border-top-right-radius: 4px;
+    border-top-left-radius: 16px;
 }
 
-
-.messages__item--typing,
-.messages__item--visitor{
-    box-shadow: transparent 0 0 0 3px, rgba(18, 18, 18, .2) 0 3px 5px;
+.blozum_messages__item--typing,
+.blozum_messages__item--visitor {
+    box-shadow: transparent 0 0 0 3px, rgba(18, 18, 18, 0.2) 0 3px 5px;
     font-size: 15px;
     border-top-right-radius: 16px;
     border-top-left-radius: 4px;
 }
+
 .visitor_menu_BLZ {
-    box-shadow: transparent 0 0 0 3px, rgba(18, 18, 18, .2) 0 3px 5px;
+    box-shadow: transparent 0 0 0 3px, rgba(18, 18, 18, 0.2) 0 3px 5px;
     font-size: 15px;
     border-top-right-radius: 20px;
     border-top-left-radius: 20px;
@@ -331,24 +333,24 @@ bottom: 35px;
 
 .blozum_chatbox__image--header {
     margin-right: 10px;
-    z-index: -999
+    z-index: -999;
 }
 
 .blozum_chatbox__heading--header {
     font-size: 1.2rem;
-    color: #fff
+    color: #fff;
 }
 
 .blozum_chatbox__description--header {
-    font-size: .9rem;
+    font-size: 0.9rem;
     color: #000;
 }
 
 .blozum_chatbox__messages {
-    padding: 0 15px 8px
+    padding: 0 15px 8px;
 }
 
-.messages__item {
+.blozum_messages__item {
     margin-top: 10px;
     background: #fff;
     color: #000;
@@ -356,19 +358,19 @@ bottom: 35px;
     max-width: 70%;
 }
 
-.messages__item--typing,
-.messages__item--visitor {
+.blozum_messages__item--typing,
+.blozum_messages__item--visitor {
     border-bottom-right-radius: 24px;
     border-bottom-left-radius: 16px;
     background: #eee;
 }
 
-.messages__item--operator {
+.blozum_messages__item--operator {
     margin-left: auto;
     border-bottom-left-radius: 24px;
     border-bottom-right-radius: 16px;
-    background: -webkit-linear-gradient(180deg, #5699FC 0%, #0E6FFF 100%);
-    background: linear-gradient(180deg, #5699FC 0%, #0E6FFF 100%);
+    background: -webkit-linear-gradient(180deg, #5699fc 0%, #0e6fff 100%);
+    background: linear-gradient(180deg, #5699fc 0%, #0e6fff 100%);
     color: #fff;
 }
 
@@ -383,7 +385,7 @@ bottom: 35px;
     border-bottom-left-radius: 20px;
     border-top-right-radius: 20px;
     border-top-left-radius: 20px;
-    margin-top: 20px
+    margin-top: 20px;
 }
 
 .blozum_chatbox__footer input {
@@ -396,27 +398,27 @@ bottom: 35px;
 }
 
 .blozum_chatbox__send--footer {
-    color: #fff
+    color: #fff;
 }
 
 .blozum_chatbox__button button {
     padding: 5px;
     background: #fff;
     border-radius: 25px 0 25px 25px;
-    box-shadow: 0 10px 15px rgba(0, 0, 0, .3);
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3);
     cursor: pointer;
 }
 
 .blozum_chatbox_button button:hover {
-    background-color: #0E6FFF;
-    color: #fff
+    background-color: #0e6fff;
+    color: #fff;
 }
 
-.img {
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-}
+/* .img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+} */
 
 .blozum {
     color: #ababab;
@@ -428,24 +430,24 @@ bottom: 35px;
     font-size: 8px;
     font-size: var(--font-size);
     line-height: var(--font-size);
-    zoom: 1.5
+    zoom: 1.5;
 }
 
 .blozum .link {
     display: inline-block;
     position: relative;
     text-decoration: none;
-    color: inherit
+    color: inherit;
 }
 
 .blozum .link div {
-    overflow: hidden
+    overflow: hidden;
 }
 
 .blozum .link div:first-child {
     display: flex;
     overflow: hidden;
-    text-shadow: 0 var(--font-size) 0 var(--text)
+    text-shadow: 0 var(--font-size) 0 var(--text);
 }
 
 .blozum .link div:last-child {
@@ -454,7 +456,7 @@ bottom: 35px;
     right: 0;
     left: 0;
     bottom: -3px;
-    height: 5px
+    height: 5px;
 }
 
 .blozum .link div:last-child svg {
@@ -471,7 +473,7 @@ bottom: 35px;
     stroke-dasharray: 63.5px 128px;
     stroke-dashoffset: var(--line-offset, 190.25px);
     transform: translateX(var(--line-x)) translateZ(0);
-    transition: transform var(--line-d, 0s), stroke-dashoffset var(--line-d, 0s)
+    transition: transform var(--line-d, 0s), stroke-dashoffset var(--line-d, 0s);
 }
 
 .blozum .link div span {
@@ -480,58 +482,58 @@ bottom: 35px;
     backface-visibility: hidden;
     font-style: normal;
     transition: transform var(--duration) ease;
-    transform: translateY(var(--m, 0))
+    transform: translateY(var(--m, 0));
 }
 
 .blozum .link div span:first-child {
-    transition-delay: 50ms
+    transition-delay: 50ms;
 }
 
 .blozum .link div span:nth-child(2) {
-    transition-delay: 0.1s
+    transition-delay: 0.1s;
 }
 
 .blozum .link div span:nth-child(3) {
-    transition-delay: 0.15s
+    transition-delay: 0.15s;
 }
 
 .blozum .link div span:nth-child(4) {
-    transition-delay: 0.2s
+    transition-delay: 0.2s;
 }
 
 .blozum .link div span:nth-child(5) {
-    transition-delay: 0.25s
+    transition-delay: 0.25s;
 }
 
 .blozum .link div span:nth-child(6) {
-    transition-delay: 0.3s
+    transition-delay: 0.3s;
 }
 
 .blozum .link div span:nth-child(7) {
-    transition-delay: 0.35s
+    transition-delay: 0.35s;
 }
 
 .blozum .link div span:nth-child(8) {
-    transition-delay: 0.4s
+    transition-delay: 0.4s;
 }
 
 .blozum .link div span:nth-child(9) {
-    transition-delay: 0.45s
+    transition-delay: 0.45s;
 }
 
 .blozum .link div span:nth-child(10) {
-    transition-delay: 0.5s
+    transition-delay: 0.5s;
 }
 
 .blozum .link div span:nth-child(11) {
-    transition-delay: 0.55s
+    transition-delay: 0.55s;
 }
 
 .blozum .link:hover {
     --m: calc(var(--font-size) * -1);
     --line-d: var(--duration-line);
     --line-x: 65.66%;
-    --line-offset: 63.5px
+    --line-offset: 63.5px;
 }
 
 .rounded-svg {
@@ -541,7 +543,7 @@ bottom: 35px;
 .blz_s {
     width: 10px;
     height: 10px;
-    background-color: #0E6FFF;
+    background-color: #0e6fff;
     opacity: 0.8;
     display: inline-block;
     margin: 1px;
@@ -552,11 +554,11 @@ bottom: 35px;
     }
 
     &:nth-child(2) {
-        animation: bounce 1s infinite .2s;
+        animation: bounce 1s infinite 0.2s;
     }
 
     &:nth-child(3) {
-        animation: bounce 1s infinite .4s;
+        animation: bounce 1s infinite 0.4s;
     }
 }
 
@@ -581,7 +583,7 @@ bottom: 35px;
 
 .home_button_BLZ {
     border-radius: 50%;
-    background-color: #0E6FFF;
+    background-color: #0e6fff;
     color: #fff;
     width: calc(3em + 2px);
     height: calc(3em + 2px);
@@ -594,25 +596,24 @@ bottom: 35px;
     border: none;
     /* Remove the default border */
     text-align: center;
-    transition: box-shadow .2s, -webkit-box-shadow .2s;
+    transition: box-shadow 0.2s, -webkit-box-shadow 0.2s;
     white-space: nowrap;
     touch-action: manipulation;
-    box-shadow: transparent 0 0 0 5px,
-        rgba(18, 18, 18, .4) 0 5px 15px;
+    box-shadow: transparent 0 0 0 5px, rgba(18, 18, 18, 0.4) 0 5px 15px;
     cursor: pointer;
     flex: 1 1 auto;
 }
 
 .home_button_BLZ:hover {
-    box-shadow: transparent 0 0 0 3px,
-        rgba(18, 18, 18, .4) 0 3px 9px;
+    box-shadow: transparent 0 0 0 3px, rgba(18, 18, 18, 0.4) 0 3px 9px;
 }
 
 .home_button_BLZ:active {
     box-shadow: #ccc 0 0 0 3px, transparent 0 0 0 0;
 }
 
-.visitor_menu_BLZ, .after_submission_BLZ {
+.visitor_menu_BLZ,
+.after_submission_BLZ {
     position: relative;
     margin-top: 10px;
     margin-right: auto;
@@ -630,7 +631,8 @@ bottom: 35px;
     z-index: 1000;
 }
 
-.flex-blozum_container {display: flex;
+.flex-blozum_container {
+    display: flex;
     justify-content: space-evenly;
 }
 
@@ -643,7 +645,8 @@ input {
     color: #000;
     margin: 0 0 6px;
 }
-.message-reaction {
+
+.blozum_message-reaction {
     display: none;
     position: absolute;
     justify-content: center;
@@ -652,8 +655,8 @@ input {
     transform: translateY(-50%);
 }
 
-.thumb-up,
-.thumb-down {
+.blozum_thumb-up,
+.blozum_thumb-down {
     cursor: pointer;
     background-color: transparent;
     outline: none;
@@ -666,23 +669,26 @@ input {
 
 /* Highlight the active (enabled) button */
 .blz_active {
-    background-color: #0E6FFF;
+    background-color: #0e6fff;
     /* Blue background for active state */
     color: white;
-    border-color: #0E6FFF;
+    border-color: #0e6fff;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
     border-width: thin;
 }
-.thumb-down:hover,
-.thumb-up:hover {
+
+.blozum_thumb-down:hover,
+.blozum_thumb-up:hover {
     color: #0e6fff;
-    transition: all .2s ease-in-out;
+    transition: all 0.2s ease-in-out;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     transform: scale(1.1);
 }
-.messages__item--visitor:hover .message-reaction {
+
+.blozum_messages__item--visitor:hover .blozum_message-reaction {
     display: contents;
 }
+
 #blz_form_error {
     background-color: #ffcccc;
     /* Light red background */
@@ -701,6 +707,7 @@ input {
     text-align: center;
     /* Center the text */
 }
+
 .blz_form_success {
     background-color: #c8e6c9;
     color: #2d862d;
